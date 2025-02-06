@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>According to Action Against Hunger 1 in 11 people go to bed hungry every night—but together, we can change that.
+ Join us in making food donations easier to access and impossible to miss across Baybay City. 
+Let’s take a bite out of hunger and create a future where no one has to face an empty plate!</value>
+  </data>
 </root>
