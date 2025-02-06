@@ -33,5 +33,37 @@ namespace Hackathon
             payment payments = new payment();
             payments.Show(); 
         }
+
+        private void donatePrompt_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button_esc_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            payment payments = new payment();
+            payments.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            foodDonation food = new foodDonation();
+            food.Show();
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
     }
 }

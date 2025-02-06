@@ -68,5 +68,10 @@ namespace Hackathon
             MessageBox.Show("Thank you for your donation!");
             this.Close();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
