@@ -38,8 +38,10 @@ namespace Hackathon
 
         }
 
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
 
-
+        }
     }
 }
 

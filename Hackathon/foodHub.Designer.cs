@@ -29,24 +29,16 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.axMap1 = new AxMapWinGIS.AxMap();
-            this.axMap1 = new AxMapWinGIS.AxMap();
-            this.axMap1 = new AxMapWinGIS.AxMap();
-            this.axMap1 = new AxMapWinGIS.AxMap();
-            this.axMap1 = new AxMapWinGIS.AxMap();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axMap1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -62,6 +54,17 @@
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
+            // webView21
+            // 
+            this.webView21.AllowExternalDrop = true;
+            this.webView21.CreationProperties = null;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.Location = new System.Drawing.Point(101, 412);
+            this.webView21.Name = "webView21";
+            this.webView21.Size = new System.Drawing.Size(2233, 914);
+            this.webView21.TabIndex = 1;
+            this.webView21.ZoomFactor = 1D;
+            // 
             // guna2Panel2
             // 
             this.guna2Panel2.AutoScroll = true;
@@ -71,6 +74,7 @@
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(800, 245);
             this.guna2Panel2.TabIndex = 0;
+            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // label1
             // 
@@ -89,49 +93,10 @@
             this.axMap1.Name = "axMap1";
             this.axMap1.TabIndex = 0;
             // 
-            // axMap1
-            // 
-            this.axMap1.Enabled = true;
-            this.axMap1.Location = new System.Drawing.Point(0, 0);
-            this.axMap1.Name = "axMap1";
-            this.axMap1.TabIndex = 0;
-            // 
-            // axMap1
-            // 
-            this.axMap1.Enabled = true;
-            this.axMap1.Location = new System.Drawing.Point(0, 0);
-            this.axMap1.Name = "axMap1";
-            this.axMap1.TabIndex = 0;
-            // 
-            // axMap1
-            // 
-            this.axMap1.Enabled = true;
-            this.axMap1.Location = new System.Drawing.Point(0, 0);
-            this.axMap1.Name = "axMap1";
-            this.axMap1.TabIndex = 0;
-            // 
-            // axMap1
-            // 
-            this.axMap1.Enabled = true;
-            this.axMap1.Location = new System.Drawing.Point(0, 0);
-            this.axMap1.Name = "axMap1";
-            this.axMap1.TabIndex = 0;
-            // 
             // fileSystemWatcher1
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
-            // 
-            // webView21
-            // 
-            this.webView21.AllowExternalDrop = true;
-            this.webView21.CreationProperties = null;
-            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView21.Location = new System.Drawing.Point(101, 412);
-            this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(2233, 914);
-            this.webView21.TabIndex = 1;
-            this.webView21.ZoomFactor = 1D;
             // 
             // foodHub
             // 
@@ -141,15 +106,11 @@
             this.Name = "foodHub";
             this.Size = new System.Drawing.Size(2554, 1368);
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axMap1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axMap1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.ResumeLayout(false);
 
         }
