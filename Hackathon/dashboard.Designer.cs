@@ -85,7 +85,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label5.Location = new System.Drawing.Point(24, 24);
+            this.label5.Location = new System.Drawing.Point(38, 26);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(304, 49);
             this.label5.TabIndex = 4;
@@ -103,7 +103,7 @@
             this.guna2Button_donatenow.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button_donatenow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(35)))));
             this.guna2Button_donatenow.HoverState.Parent = this.guna2Button_donatenow;
-            this.guna2Button_donatenow.Location = new System.Drawing.Point(1130, 1198);
+            this.guna2Button_donatenow.Location = new System.Drawing.Point(1116, 1198);
             this.guna2Button_donatenow.Name = "guna2Button_donatenow";
             this.guna2Button_donatenow.ShadowDecoration.Parent = this.guna2Button_donatenow;
             this.guna2Button_donatenow.Size = new System.Drawing.Size(289, 88);
@@ -118,11 +118,11 @@
             this.guna2ShadowPanel1.Controls.Add(this.panel1);
             this.guna2ShadowPanel1.Controls.Add(this.label5);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(614, 829);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(580, 829);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
             this.guna2ShadowPanel1.ShadowShift = 10;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(347, 319);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(381, 319);
             this.guna2ShadowPanel1.TabIndex = 10;
             // 
             // label6
@@ -130,7 +130,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label6.Location = new System.Drawing.Point(14, 24);
+            this.label6.Location = new System.Drawing.Point(20, 24);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(330, 49);
             this.label6.TabIndex = 5;
@@ -141,7 +141,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label7.Location = new System.Drawing.Point(5, 24);
+            this.label7.Location = new System.Drawing.Point(20, 24);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(342, 49);
             this.label7.TabIndex = 6;
@@ -166,7 +166,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label9.Location = new System.Drawing.Point(27, 14);
+            this.label9.Location = new System.Drawing.Point(38, 14);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(126, 49);
             this.label9.TabIndex = 9;
@@ -179,11 +179,11 @@
             this.guna2ShadowPanel2.Controls.Add(this.panel2);
             this.guna2ShadowPanel2.Controls.Add(this.label6);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(1107, 829);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(1073, 829);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
             this.guna2ShadowPanel2.ShadowShift = 10;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(347, 319);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(381, 319);
             this.guna2ShadowPanel2.TabIndex = 11;
             // 
             // guna2ShadowPanel3
@@ -193,18 +193,18 @@
             this.guna2ShadowPanel3.Controls.Add(this.panel3);
             this.guna2ShadowPanel3.Controls.Add(this.label7);
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(1586, 829);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(1552, 829);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
             this.guna2ShadowPanel3.ShadowShift = 10;
-            this.guna2ShadowPanel3.Size = new System.Drawing.Size(347, 319);
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(381, 319);
             this.guna2ShadowPanel3.TabIndex = 12;
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Location = new System.Drawing.Point(86, 93);
+            this.panel2.Location = new System.Drawing.Point(99, 93);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(181, 75);
             this.panel2.TabIndex = 9;
@@ -213,7 +213,7 @@
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(88, 93);
+            this.panel3.Location = new System.Drawing.Point(101, 93);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(181, 75);
             this.panel3.TabIndex = 10;
@@ -234,7 +234,7 @@
             this.guna2ImageButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2ImageButton4.CheckedState.Parent = this.guna2ImageButton4;
             this.guna2ImageButton4.HoverState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.Location = new System.Drawing.Point(101, 204);
+            this.guna2ImageButton4.Location = new System.Drawing.Point(116, 204);
             this.guna2ImageButton4.Name = "guna2ImageButton4";
             this.guna2ImageButton4.PressedState.Parent = this.guna2ImageButton4;
             this.guna2ImageButton4.Size = new System.Drawing.Size(159, 78);
@@ -246,7 +246,7 @@
             this.guna2ImageButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
             this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(99, 204);
+            this.guna2ImageButton3.Location = new System.Drawing.Point(112, 204);
             this.guna2ImageButton3.Name = "guna2ImageButton3";
             this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
             this.guna2ImageButton3.Size = new System.Drawing.Size(159, 78);
@@ -258,11 +258,12 @@
             this.guna2ImageButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
             this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(96, 204);
+            this.guna2ImageButton2.Location = new System.Drawing.Point(123, 204);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
             this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
             this.guna2ImageButton2.Size = new System.Drawing.Size(159, 78);
             this.guna2ImageButton2.TabIndex = 10;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
             // guna2Panel2
             // 
@@ -317,9 +318,9 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(74, 93);
+            this.panel1.Location = new System.Drawing.Point(62, 93);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(181, 75);
+            this.panel1.Size = new System.Drawing.Size(253, 75);
             this.panel1.TabIndex = 8;
             // 
             // dashboard
