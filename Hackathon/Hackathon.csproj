@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutUs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="aboutUs.Designer.cs">
+      <DependentUpon>aboutUs.cs</DependentUpon>
+    </Compile>
     <Compile Include="dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
