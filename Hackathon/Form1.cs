@@ -51,7 +51,15 @@ namespace Hackathon
 
         private void guna2Button_aboutus_Click(object sender, EventArgs e)
         {
+            aboutUs about = new aboutUs();
+            guna2Panel2.Controls.Clear();
+            guna2Panel2.Controls.Add(about);
+        }
 
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            donatePrompt prompt = new donatePrompt();
+            prompt.Show();
         }
     }
 }

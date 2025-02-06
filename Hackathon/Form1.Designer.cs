@@ -80,6 +80,7 @@
             this.guna2Button4.Size = new System.Drawing.Size(217, 88);
             this.guna2Button4.TabIndex = 3;
             this.guna2Button4.Text = "DONATE";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button_aboutus
             // 
