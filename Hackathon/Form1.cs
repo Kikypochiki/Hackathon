@@ -26,5 +26,24 @@ namespace Hackathon
         {
 
         }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button_home_Click(object sender, EventArgs e)
+        {
+            dashboard home= new dashboard();
+            guna2Panel2.Controls.Clear();
+            guna2Panel2.Controls.Add(home);
+        }
+
+        private void guna2Button_foodhub_Click(object sender, EventArgs e)
+        {
+            foodHub fh = new foodHub();
+            guna2Panel2.Controls.Clear();
+            guna2Panel2.Controls.Add(fh);
+        }
     }
 }
