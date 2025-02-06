@@ -16,6 +16,7 @@ namespace Hackathon
         {
             InitializeComponent();
             dashboard_Load();
+
         }
 
         public void dashboard_Load()
