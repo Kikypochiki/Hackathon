@@ -141,6 +141,7 @@
     <Compile Include="donatePrompt.Designer.cs">
       <DependentUpon>donatePrompt.cs</DependentUpon>
     </Compile>
+    <Compile Include="donation.cs" />
     <Compile Include="foodDonation.cs">
       <SubType>Form</SubType>
     </Compile>
