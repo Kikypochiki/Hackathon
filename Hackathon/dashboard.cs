@@ -29,5 +29,10 @@ namespace Hackathon
                 label9.Text = info.familiesHelped.ToString();
             }
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
