@@ -27,8 +27,8 @@
             this.guna2Button_foodhub = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button_home = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -90,15 +90,16 @@
             this.guna2Button_aboutus.CheckedState.Parent = this.guna2Button_aboutus;
             this.guna2Button_aboutus.CustomImages.Parent = this.guna2Button_aboutus;
             this.guna2Button_aboutus.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Button_aboutus.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button_aboutus.Font = new System.Drawing.Font("Arial", 11.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button_aboutus.ForeColor = System.Drawing.Color.White;
             this.guna2Button_aboutus.HoverState.Parent = this.guna2Button_aboutus;
-            this.guna2Button_aboutus.Location = new System.Drawing.Point(1853, 32);
+            this.guna2Button_aboutus.Location = new System.Drawing.Point(1976, 35);
             this.guna2Button_aboutus.Name = "guna2Button_aboutus";
             this.guna2Button_aboutus.ShadowDecoration.Parent = this.guna2Button_aboutus;
-            this.guna2Button_aboutus.Size = new System.Drawing.Size(217, 88);
+            this.guna2Button_aboutus.Size = new System.Drawing.Size(174, 80);
             this.guna2Button_aboutus.TabIndex = 2;
             this.guna2Button_aboutus.Text = "ABOUT US";
+            this.guna2Button_aboutus.Click += new System.EventHandler(this.guna2Button_aboutus_Click);
             // 
             // guna2Button_foodhub
             // 
@@ -109,13 +110,13 @@
             this.guna2Button_foodhub.CheckedState.Parent = this.guna2Button_foodhub;
             this.guna2Button_foodhub.CustomImages.Parent = this.guna2Button_foodhub;
             this.guna2Button_foodhub.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Button_foodhub.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button_foodhub.Font = new System.Drawing.Font("Arial", 11.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button_foodhub.ForeColor = System.Drawing.Color.White;
             this.guna2Button_foodhub.HoverState.Parent = this.guna2Button_foodhub;
-            this.guna2Button_foodhub.Location = new System.Drawing.Point(1566, 32);
+            this.guna2Button_foodhub.Location = new System.Drawing.Point(1753, 35);
             this.guna2Button_foodhub.Name = "guna2Button_foodhub";
             this.guna2Button_foodhub.ShadowDecoration.Parent = this.guna2Button_foodhub;
-            this.guna2Button_foodhub.Size = new System.Drawing.Size(217, 88);
+            this.guna2Button_foodhub.Size = new System.Drawing.Size(174, 80);
             this.guna2Button_foodhub.TabIndex = 1;
             this.guna2Button_foodhub.Text = "FOOD HUB";
             this.guna2Button_foodhub.Click += new System.EventHandler(this.guna2Button_foodhub_Click);
@@ -129,13 +130,13 @@
             this.guna2Button_home.CheckedState.Parent = this.guna2Button_home;
             this.guna2Button_home.CustomImages.Parent = this.guna2Button_home;
             this.guna2Button_home.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Button_home.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button_home.Font = new System.Drawing.Font("Arial", 11.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button_home.ForeColor = System.Drawing.Color.White;
             this.guna2Button_home.HoverState.Parent = this.guna2Button_home;
-            this.guna2Button_home.Location = new System.Drawing.Point(1283, 32);
+            this.guna2Button_home.Location = new System.Drawing.Point(1529, 35);
             this.guna2Button_home.Name = "guna2Button_home";
             this.guna2Button_home.ShadowDecoration.Parent = this.guna2Button_home;
-            this.guna2Button_home.Size = new System.Drawing.Size(217, 88);
+            this.guna2Button_home.Size = new System.Drawing.Size(174, 80);
             this.guna2Button_home.TabIndex = 0;
             this.guna2Button_home.Text = "HOME";
             this.guna2Button_home.Click += new System.EventHandler(this.guna2Button_home_Click);
@@ -154,15 +155,6 @@
             this.guna2Panel2.TabIndex = 1;
             this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(2554, 1368);
-            this.webBrowser1.TabIndex = 0;
-            // 
             // webBrowser2
             // 
             this.webBrowser2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -171,6 +163,15 @@
             this.webBrowser2.Name = "webBrowser2";
             this.webBrowser2.Size = new System.Drawing.Size(2554, 1368);
             this.webBrowser2.TabIndex = 1;
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(2554, 1368);
+            this.webBrowser1.TabIndex = 0;
             // 
             // Home
             // 

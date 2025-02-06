@@ -48,5 +48,10 @@ namespace Hackathon
             guna2Panel2.Controls.Clear();
             guna2Panel2.Controls.Add(fh);
         }
+
+        private void guna2Button_aboutus_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
