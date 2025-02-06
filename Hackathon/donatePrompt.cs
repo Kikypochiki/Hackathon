@@ -16,5 +16,22 @@ namespace Hackathon
         {
             InitializeComponent();
         }
+
+        private void guna2Button_esc_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void guna2Button_food_Click(object sender, EventArgs e)
+        {
+            foodDonation food = new foodDonation();
+            food.Show();
+        }
+
+        private void guna2Button_money_Click(object sender, EventArgs e)
+        {
+            payment payments = new payment();
+            payments.Show(); 
+        }
     }
 }

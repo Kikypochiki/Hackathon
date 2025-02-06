@@ -257,6 +257,7 @@
             this.Controls.Add(this.guna2Button_esc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "payment";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "payment";
             this.ResumeLayout(false);
             this.PerformLayout();

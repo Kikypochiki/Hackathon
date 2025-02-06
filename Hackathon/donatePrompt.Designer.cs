@@ -86,6 +86,7 @@
             this.guna2Button_esc.ShadowDecoration.Parent = this.guna2Button_esc;
             this.guna2Button_esc.Size = new System.Drawing.Size(44, 51);
             this.guna2Button_esc.TabIndex = 6;
+            this.guna2Button_esc.Click += new System.EventHandler(this.guna2Button_esc_Click);
             // 
             // guna2Button_money
             // 
@@ -102,6 +103,7 @@
             this.guna2Button_money.ShadowDecoration.Parent = this.guna2Button_money;
             this.guna2Button_money.Size = new System.Drawing.Size(136, 135);
             this.guna2Button_money.TabIndex = 1;
+            this.guna2Button_money.Click += new System.EventHandler(this.guna2Button_money_Click);
             // 
             // guna2Button_food
             // 
@@ -118,6 +120,7 @@
             this.guna2Button_food.ShadowDecoration.Parent = this.guna2Button_food;
             this.guna2Button_food.Size = new System.Drawing.Size(136, 135);
             this.guna2Button_food.TabIndex = 0;
+            this.guna2Button_food.Click += new System.EventHandler(this.guna2Button_food_Click);
             // 
             // donatePrompt
             // 

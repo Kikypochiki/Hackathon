@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.HtmlRenderer.Adapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace Hackathon
         public foodDonation()
         {
             InitializeComponent();
+            showMap();
+        }
+
+        private async void showMap()
+        {
+            StringBuilder address = new StringBuilder();
+            address.Append("https://www.google.com/maps/place/Baybay+City,+Leyte");
+
+            await webView21.EnsureCoreWebView2Async();
+            webView21.Source = new Uri(address.ToString());
         }
 
         private void foodDonation_Load(object sender, EventArgs e)

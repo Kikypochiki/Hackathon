@@ -32,8 +32,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.guna2Button_esc = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ComboBox1
@@ -100,14 +101,6 @@
             this.guna2Panel1.Size = new System.Drawing.Size(841, 284);
             this.guna2Panel1.TabIndex = 12;
             // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Location = new System.Drawing.Point(97, 213);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(1182, 525);
-            this.guna2Panel2.TabIndex = 13;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -121,21 +114,34 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // webView21
+            // 
+            this.webView21.AllowExternalDrop = true;
+            this.webView21.CreationProperties = null;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.Location = new System.Drawing.Point(83, 236);
+            this.webView21.Name = "webView21";
+            this.webView21.Size = new System.Drawing.Size(1226, 478);
+            this.webView21.TabIndex = 15;
+            this.webView21.ZoomFactor = 1D;
+            // 
             // foodDonation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1400, 1086);
+            this.Controls.Add(this.webView21);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.guna2Button_esc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "foodDonation";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "foodDonation";
             this.Load += new System.EventHandler(this.foodDonation_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,7 +153,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private System.Windows.Forms.Label label1;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
     }
 }
