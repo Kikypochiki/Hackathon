@@ -323,7 +323,7 @@
             this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(2074, 477);
@@ -477,7 +477,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "dashboard";
             this.Size = new System.Drawing.Size(2100, 1150);
             this.guna2ShadowPanel1.ResumeLayout(false);

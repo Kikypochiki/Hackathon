@@ -31,6 +31,7 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -54,6 +55,7 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.guna2Panel4);
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Controls.Add(this.guna2ImageButton1);
             this.guna2Panel1.Controls.Add(this.guna2Button4);
@@ -61,8 +63,8 @@
             this.guna2Panel1.Controls.Add(this.guna2Button_foodhub);
             this.guna2Panel1.Controls.Add(this.guna2Button_home);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(2, 2);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(2090, 132);
@@ -119,7 +121,7 @@
             // guna2Button_aboutus
             // 
             this.guna2Button_aboutus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Button_aboutus.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
+            this.guna2Button_aboutus.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button_aboutus.BorderRadius = 10;
             this.guna2Button_aboutus.BorderThickness = 2;
             this.guna2Button_aboutus.CheckedState.Parent = this.guna2Button_aboutus;
@@ -140,7 +142,7 @@
             // guna2Button_foodhub
             // 
             this.guna2Button_foodhub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Button_foodhub.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
+            this.guna2Button_foodhub.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button_foodhub.BorderRadius = 10;
             this.guna2Button_foodhub.BorderThickness = 2;
             this.guna2Button_foodhub.CheckedState.Parent = this.guna2Button_foodhub;
@@ -161,7 +163,7 @@
             // guna2Button_home
             // 
             this.guna2Button_home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.guna2Button_home.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(206)))), ((int)(((byte)(95)))));
+            this.guna2Button_home.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button_home.BorderRadius = 10;
             this.guna2Button_home.BorderThickness = 2;
             this.guna2Button_home.CheckedState.Parent = this.guna2Button_home;
@@ -213,6 +215,16 @@
             this.webBrowser1.Size = new System.Drawing.Size(2106, 1142);
             this.webBrowser1.TabIndex = 0;
             // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.guna2Panel4.Location = new System.Drawing.Point(1782, 14);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
+            this.guna2Panel4.Size = new System.Drawing.Size(5, 100);
+            this.guna2Panel4.TabIndex = 7;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -245,6 +257,7 @@
         private System.Windows.Forms.WebBrowser webBrowser2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
     }
 }
 
