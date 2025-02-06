@@ -69,7 +69,7 @@
             // 
             this.guna2Panel2.AutoScroll = true;
             this.guna2Panel2.Controls.Add(this.label1);
-            this.guna2Panel2.Location = new System.Drawing.Point(751, 148);
+            this.guna2Panel2.Location = new System.Drawing.Point(729, 136);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(800, 245);
