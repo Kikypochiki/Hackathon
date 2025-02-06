@@ -12,32 +12,55 @@ namespace Hackathon
 {
     public partial class dashboard : UserControl
     {
+        private Timer updateTimer;
+        private Database db;
+        private List<Info> infos;
+
         public dashboard()
         {
             InitializeComponent();
+            db = new Database();
+            infos = db.fetchData();
             dashboard_Load();
-           setText();
-
+            setText();
+            InitializeTimer();
         }
 
         public void dashboard_Load()
         {
-            Database db = new Database();
-            List<Info> infos = db.fetchData();
-            foreach (Info info in infos)
-            {
-                label4.Text = "₱" + info.moneyRaised.ToString();
-                label8.Text = info.mealsProvided.ToString();
-                label9.Text = info.familiesHelped.ToString();
-            }
+            UpdateLabels();
         }
 
         private void setText()
         {
-            Database db = new Database();
-            List<Info> infos = db.fetchData();
             family.Text = infos[0].familiesHelped.ToString();
             meal.Text = infos[0].mealsProvided.ToString();
+        }
+
+        private void InitializeTimer()
+        {
+            updateTimer = new Timer();
+            updateTimer.Interval = 5000; // Set the interval to 5 seconds
+            updateTimer.Tick += new EventHandler(UpdateInfo);
+            updateTimer.Start();
+        }
+
+        private void UpdateInfo(object sender, EventArgs e)
+        {
+            // Increment the values
+            infos[0].moneyRaised += 100; // Increment moneyRaised by 100
+            infos[0].mealsProvided += 10; // Increment mealsProvided by 10
+            infos[0].familiesHelped += 5; // Increment familiesHelped by 5
+
+            // Update the labels
+            UpdateLabels();
+        }
+
+        private void UpdateLabels()
+        {
+            label4.Text = "₱" + infos[0].moneyRaised.ToString();
+            label8.Text = infos[0].mealsProvided.ToString();
+            label9.Text = infos[0].familiesHelped.ToString();
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -80,5 +103,11 @@ namespace Hackathon
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

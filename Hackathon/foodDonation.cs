@@ -73,5 +73,10 @@ namespace Hackathon
         {
             this.Close();
         }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

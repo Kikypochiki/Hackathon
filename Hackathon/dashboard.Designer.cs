@@ -205,6 +205,7 @@
             this.label4.Size = new System.Drawing.Size(109, 43);
             this.label4.TabIndex = 7;
             this.label4.Text = "00.00";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label6
             // 
@@ -346,7 +347,7 @@
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(2098, 477);
+            this.guna2Panel2.Size = new System.Drawing.Size(2074, 477);
             this.guna2Panel2.TabIndex = 1;
             // 
             // label1
@@ -437,7 +438,7 @@
             this.guna2ImageButton6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2ImageButton6.Name = "guna2ImageButton6";
             this.guna2ImageButton6.PressedState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.Size = new System.Drawing.Size(347, 253);
+            this.guna2ImageButton6.Size = new System.Drawing.Size(323, 253);
             this.guna2ImageButton6.TabIndex = 17;
             // 
             // guna2ImageButton7
@@ -705,7 +706,7 @@
             this.guna2Panel6.Location = new System.Drawing.Point(3, 1661);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.ShadowDecoration.Parent = this.guna2Panel6;
-            this.guna2Panel6.Size = new System.Drawing.Size(2068, 1050);
+            this.guna2Panel6.Size = new System.Drawing.Size(2050, 1050);
             this.guna2Panel6.TabIndex = 23;
             // 
             // guna2ImageButton1
@@ -804,7 +805,7 @@
             this.Controls.Add(this.guna2Panel6);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "dashboard";
-            this.Size = new System.Drawing.Size(2048, 1124);
+            this.Size = new System.Drawing.Size(2074, 1124);
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel1.PerformLayout();
             this.panel1.ResumeLayout(false);

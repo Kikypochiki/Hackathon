@@ -30,8 +30,6 @@
         {
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2Button_esc = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
@@ -44,6 +42,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button_esc = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.guna2ShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -61,10 +61,11 @@
             this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.ItemHeight = 30;
             this.guna2ComboBox1.Items.AddRange(new object[] {
-            "Credit or Debit Card",
-            "G-cash",
-            "Maya",
-            "Google Play"});
+            "VSU Market",
+            "City Plaza",
+            "Aya Hills",
+            "Prince",
+            "Metro"});
             this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Location = new System.Drawing.Point(336, 946);
             this.guna2ComboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -72,6 +73,7 @@
             this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Size = new System.Drawing.Size(327, 36);
             this.guna2ComboBox1.TabIndex = 11;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -86,35 +88,6 @@
             this.label3.Text = "Choose Food Hub:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // guna2Button_esc
-            // 
-            this.guna2Button_esc.BackgroundImage = global::Hackathon.Properties.Resources.close;
-            this.guna2Button_esc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Button_esc.CheckedState.Parent = this.guna2Button_esc;
-            this.guna2Button_esc.CustomImages.Parent = this.guna2Button_esc;
-            this.guna2Button_esc.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button_esc.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button_esc.ForeColor = System.Drawing.Color.White;
-            this.guna2Button_esc.HoverState.Parent = this.guna2Button_esc;
-            this.guna2Button_esc.Location = new System.Drawing.Point(2, 0);
-            this.guna2Button_esc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.guna2Button_esc.Name = "guna2Button_esc";
-            this.guna2Button_esc.ShadowDecoration.Parent = this.guna2Button_esc;
-            this.guna2Button_esc.Size = new System.Drawing.Size(20, 20);
-            this.guna2Button_esc.TabIndex = 8;
-            this.guna2Button_esc.Click += new System.EventHandler(this.guna2Button_esc_Click);
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackgroundImage = global::Hackathon.Properties.Resources.steps;
-            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel1.Location = new System.Drawing.Point(102, 584);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(865, 160);
-            this.guna2Panel1.TabIndex = 12;
             // 
             // label1
             // 
@@ -321,6 +294,35 @@
             this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
             this.guna2Panel3.Size = new System.Drawing.Size(1070, 295);
             this.guna2Panel3.TabIndex = 24;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackgroundImage = global::Hackathon.Properties.Resources.steps;
+            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel1.Location = new System.Drawing.Point(102, 584);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.guna2Panel1.Size = new System.Drawing.Size(865, 160);
+            this.guna2Panel1.TabIndex = 12;
+            // 
+            // guna2Button_esc
+            // 
+            this.guna2Button_esc.BackgroundImage = global::Hackathon.Properties.Resources.close;
+            this.guna2Button_esc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Button_esc.CheckedState.Parent = this.guna2Button_esc;
+            this.guna2Button_esc.CustomImages.Parent = this.guna2Button_esc;
+            this.guna2Button_esc.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button_esc.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button_esc.ForeColor = System.Drawing.Color.White;
+            this.guna2Button_esc.HoverState.Parent = this.guna2Button_esc;
+            this.guna2Button_esc.Location = new System.Drawing.Point(2, 0);
+            this.guna2Button_esc.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Button_esc.Name = "guna2Button_esc";
+            this.guna2Button_esc.ShadowDecoration.Parent = this.guna2Button_esc;
+            this.guna2Button_esc.Size = new System.Drawing.Size(20, 20);
+            this.guna2Button_esc.TabIndex = 8;
+            this.guna2Button_esc.Click += new System.EventHandler(this.guna2Button_esc_Click);
             // 
             // foodDonation
             // 
