@@ -16,6 +16,7 @@ namespace Hackathon
         {
             InitializeComponent();
             dashboard_Load();
+           setText();
 
         }
 
@@ -29,6 +30,14 @@ namespace Hackathon
                 label8.Text = info.mealsProvided.ToString();
                 label9.Text = info.familiesHelped.ToString();
             }
+        }
+
+        private void setText()
+        {
+            Database db = new Database();
+            List<Info> infos = db.fetchData();
+            family.Text = infos[0].familiesHelped.ToString();
+            meal.Text = infos[0].mealsProvided.ToString();
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -45,6 +54,31 @@ namespace Hackathon
         {
             donatePrompt prompt = new donatePrompt();
             prompt.Show();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
