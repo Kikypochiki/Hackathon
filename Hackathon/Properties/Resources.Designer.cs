@@ -83,9 +83,29 @@ namespace Hackathon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _393969116_334906342456450_5304747686754314074_n {
+            get {
+                object obj = ResourceManager.GetObject("393969116_334906342456450_5304747686754314074_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _394562059_1411437273049810_2484675017541536968_n {
             get {
                 object obj = ResourceManager.GetObject("394562059_1411437273049810_2484675017541536968_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _473106241_471944035969769_5501215890837223017_n {
+            get {
+                object obj = ResourceManager.GetObject("473106241_471944035969769_5501215890837223017_n", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

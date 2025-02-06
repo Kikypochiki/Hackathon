@@ -117,4 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>"Through NourishDesk transactions, numerous donation drives 
+and pantries were successfully implemented in Baybay City. 
+These efforts, comprising both individual and group contributions, 
+played a significant role in reducing hunger 
+and making the world a better place."</value>
+  </data>
 </root>
