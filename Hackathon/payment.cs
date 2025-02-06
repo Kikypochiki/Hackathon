@@ -17,9 +17,15 @@ namespace Hackathon
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void guna2TextBox_holdername_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button_esc_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you for your donation!");
+            this.Close();
         }
     }
 }
