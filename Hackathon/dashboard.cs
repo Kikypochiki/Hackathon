@@ -24,7 +24,7 @@ namespace Hackathon
             List<Info> infos = db.fetchData();
             foreach (Info info in infos)
             {
-                label4.Text = info.moneyRaised.ToString();
+                label4.Text = "₱" + info.moneyRaised.ToString();
                 label8.Text = info.mealsProvided.ToString();
                 label9.Text = info.familiesHelped.ToString();
             }
