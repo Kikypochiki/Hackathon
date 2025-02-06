@@ -35,7 +35,6 @@ namespace Hackathon
 
         private void guna2Button_esc_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thank you for your donation!");
             this.Close();
         }
 
@@ -47,6 +46,27 @@ namespace Hackathon
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button_CONFIRM_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you for your donation!");
+            this.Close();
         }
     }
 }

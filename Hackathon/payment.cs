@@ -24,6 +24,12 @@ namespace Hackathon
 
         private void guna2Button_esc_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void guna2Button_CONFIRM_Click(object sender, EventArgs e)
+        {
+
             MessageBox.Show("Thank you for your donation!");
             this.Close();
         }
