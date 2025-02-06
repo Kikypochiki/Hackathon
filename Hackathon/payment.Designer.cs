@@ -435,6 +435,7 @@
             this.guna2Button_CONFIRM.Size = new System.Drawing.Size(191, 47);
             this.guna2Button_CONFIRM.TabIndex = 27;
             this.guna2Button_CONFIRM.Text = "CONFIRM";
+            this.guna2Button_CONFIRM.Click += new System.EventHandler(this.guna2Button_CONFIRM_Click_1);
             // 
             // guna2Button1
             // 
@@ -455,6 +456,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(191, 47);
             this.guna2Button1.TabIndex = 28;
             this.guna2Button1.Text = "CANCEL";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // payment
             // 
