@@ -153,6 +153,12 @@
     <Compile Include="foodHub.Designer.cs">
       <DependentUpon>foodHub.cs</DependentUpon>
     </Compile>
+    <Compile Include="footer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="footer.Designer.cs">
+      <DependentUpon>footer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="foodHub.resx">
       <DependentUpon>foodHub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="footer.resx">
+      <DependentUpon>footer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -308,6 +317,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\394562059_1411437273049810_2484675017541536968_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\475244686_1268925844400580_3674823859998915288_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Web.WebView2.1.0.2957.106\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.2957.106\build\Microsoft.Web.WebView2.targets')" />
