@@ -336,6 +336,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\check.png" />
+    <None Include="Resources\check2.png" />
+    <None Include="Resources\vegies.jpg" />
+    <None Include="Resources\happychildren.jpg" />
+    <None Include="Resources\foodpack.jpg" />
+    <None Include="Resources\community.jpg" />
     <None Include="Resources\check1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
