@@ -34,30 +34,30 @@
             this.label5 = new System.Windows.Forms.Label();
             this.guna2Button_donatenow = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ShadowPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.guna2ShadowPanel2.SuspendLayout();
-            this.guna2ShadowPanel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.guna2ShadowPanel3.SuspendLayout();
             this.panel3.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -109,6 +109,7 @@
             this.guna2Button_donatenow.Size = new System.Drawing.Size(289, 88);
             this.guna2Button_donatenow.TabIndex = 4;
             this.guna2Button_donatenow.Text = "DONATE NOW!";
+            this.guna2Button_donatenow.Click += new System.EventHandler(this.guna2Button_donatenow_Click);
             // 
             // guna2ShadowPanel1
             // 
@@ -124,6 +125,50 @@
             this.guna2ShadowPanel1.ShadowShift = 10;
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(381, 319);
             this.guna2ShadowPanel1.TabIndex = 10;
+            // 
+            // guna2ImageButton2
+            // 
+            this.guna2ImageButton2.BackgroundImage = global::Hackathon.Properties.Resources.money__1_;
+            this.guna2ImageButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
+            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
+            this.guna2ImageButton2.Location = new System.Drawing.Point(123, 204);
+            this.guna2ImageButton2.Name = "guna2ImageButton2";
+            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
+            this.guna2ImageButton2.Size = new System.Drawing.Size(159, 78);
+            this.guna2ImageButton2.TabIndex = 10;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Location = new System.Drawing.Point(105, 204);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Size = new System.Drawing.Size(177, 78);
+            this.guna2ImageButton1.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Location = new System.Drawing.Point(62, 93);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(253, 75);
+            this.panel1.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.label4.Location = new System.Drawing.Point(27, 14);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(126, 49);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "00.00";
             // 
             // label6
             // 
@@ -186,6 +231,27 @@
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(381, 319);
             this.guna2ShadowPanel2.TabIndex = 11;
             // 
+            // guna2ImageButton3
+            // 
+            this.guna2ImageButton3.BackgroundImage = global::Hackathon.Properties.Resources.dinner;
+            this.guna2ImageButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Location = new System.Drawing.Point(112, 204);
+            this.guna2ImageButton3.Name = "guna2ImageButton3";
+            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Size = new System.Drawing.Size(159, 78);
+            this.guna2ImageButton3.TabIndex = 11;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Location = new System.Drawing.Point(99, 93);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(181, 75);
+            this.panel2.TabIndex = 9;
+            // 
             // guna2ShadowPanel3
             // 
             this.guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent;
@@ -200,34 +266,6 @@
             this.guna2ShadowPanel3.Size = new System.Drawing.Size(381, 319);
             this.guna2ShadowPanel3.TabIndex = 12;
             // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Location = new System.Drawing.Point(99, 93);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(181, 75);
-            this.panel2.TabIndex = 9;
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(101, 93);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(181, 75);
-            this.panel3.TabIndex = 10;
-            // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(105, 204);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(177, 78);
-            this.guna2ImageButton1.TabIndex = 9;
-            // 
             // guna2ImageButton4
             // 
             this.guna2ImageButton4.BackgroundImage = global::Hackathon.Properties.Resources.family;
@@ -240,30 +278,14 @@
             this.guna2ImageButton4.Size = new System.Drawing.Size(159, 78);
             this.guna2ImageButton4.TabIndex = 12;
             // 
-            // guna2ImageButton3
+            // panel3
             // 
-            this.guna2ImageButton3.BackgroundImage = global::Hackathon.Properties.Resources.dinner;
-            this.guna2ImageButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(112, 204);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Size = new System.Drawing.Size(159, 78);
-            this.guna2ImageButton3.TabIndex = 11;
-            // 
-            // guna2ImageButton2
-            // 
-            this.guna2ImageButton2.BackgroundImage = global::Hackathon.Properties.Resources.money__1_;
-            this.guna2ImageButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(123, 204);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Size = new System.Drawing.Size(159, 78);
-            this.guna2ImageButton2.TabIndex = 10;
-            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Location = new System.Drawing.Point(101, 93);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(181, 75);
+            this.panel3.TabIndex = 10;
             // 
             // guna2Panel2
             // 
@@ -302,27 +324,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "NourishDesk";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label4.Location = new System.Drawing.Point(27, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 49);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "00.00";
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(62, 93);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(253, 75);
-            this.panel1.TabIndex = 8;
-            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -339,18 +340,18 @@
             this.Size = new System.Drawing.Size(2554, 1368);
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel2.PerformLayout();
-            this.guna2ShadowPanel3.ResumeLayout(false);
-            this.guna2ShadowPanel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.guna2ShadowPanel3.ResumeLayout(false);
+            this.guna2ShadowPanel3.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

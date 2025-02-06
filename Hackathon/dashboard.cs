@@ -39,5 +39,11 @@ namespace Hackathon
         {
 
         }
+
+        private void guna2Button_donatenow_Click(object sender, EventArgs e)
+        {
+            donatePrompt prompt = new donatePrompt();
+            prompt.Show();
+        }
     }
 }
