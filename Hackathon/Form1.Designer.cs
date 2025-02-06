@@ -28,6 +28,7 @@
             this.guna2Button_home = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.webBrowser2 = new System.Windows.Forms.WebBrowser();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -143,6 +144,7 @@
             // 
             this.guna2Panel2.AutoScroll = true;
             this.guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2Panel2.Controls.Add(this.webBrowser2);
             this.guna2Panel2.Controls.Add(this.webBrowser1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.Location = new System.Drawing.Point(3, 167);
@@ -160,6 +162,15 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(2554, 1368);
             this.webBrowser1.TabIndex = 0;
+            // 
+            // webBrowser2
+            // 
+            this.webBrowser2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser2.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser2.Name = "webBrowser2";
+            this.webBrowser2.Size = new System.Drawing.Size(2554, 1368);
+            this.webBrowser2.TabIndex = 1;
             // 
             // Home
             // 
@@ -190,6 +201,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button_foodhub;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.WebBrowser webBrowser2;
     }
 }
 

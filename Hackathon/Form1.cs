@@ -15,6 +15,9 @@ namespace Hackathon
         public Home()
         {
             InitializeComponent();
+            dashboard home = new dashboard();
+            guna2Panel2.Controls.Clear();
+            guna2Panel2.Controls.Add(home);
         }
 
         private void Form1_Load(object sender, EventArgs e)
