@@ -51,7 +51,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(552, 637);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1376, 228);
+            this.label1.Size = new System.Drawing.Size(1417, 240);
             this.label1.TabIndex = 2;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

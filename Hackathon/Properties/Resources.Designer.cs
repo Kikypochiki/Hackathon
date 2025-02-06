@@ -83,6 +83,26 @@ namespace Hackathon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _394562059_1411437273049810_2484675017541536968_n {
+            get {
+                object obj = ResourceManager.GetObject("394562059_1411437273049810_2484675017541536968_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _475244686_1268925844400580_3674823859998915288_n {
+            get {
+                object obj = ResourceManager.GetObject("475244686_1268925844400580_3674823859998915288_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _741bd498_94a4_4dc5_b655_230ffd4eb897 {
             get {
                 object obj = ResourceManager.GetObject("741bd498-94a4-4dc5-b655-230ffd4eb897", resourceCulture);
@@ -156,6 +176,16 @@ namespace Hackathon.Properties {
         internal static System.Drawing.Bitmap hand {
             get {
                 object obj = ResourceManager.GetObject("hand", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_Design {
+            get {
+                object obj = ResourceManager.GetObject("Logo Design", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

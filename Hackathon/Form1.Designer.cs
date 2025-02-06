@@ -29,6 +29,8 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -51,6 +53,8 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.label2);
+            this.guna2Panel1.Controls.Add(this.guna2ImageButton1);
             this.guna2Panel1.Controls.Add(this.guna2Button4);
             this.guna2Panel1.Controls.Add(this.guna2Button_aboutus);
             this.guna2Panel1.Controls.Add(this.guna2Button_foodhub);
@@ -174,6 +178,31 @@
             this.webBrowser1.Size = new System.Drawing.Size(2554, 1368);
             this.webBrowser1.TabIndex = 0;
             // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton1.BackgroundImage = global::Hackathon.Properties.Resources.Logo_Design;
+            this.guna2ImageButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Location = new System.Drawing.Point(29, 11);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Size = new System.Drawing.Size(165, 126);
+            this.guna2ImageButton1.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 27.85714F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(186, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(434, 77);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "NourishDesk";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -188,6 +217,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -204,6 +234,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.WebBrowser webBrowser2;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
